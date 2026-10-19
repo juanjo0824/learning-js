@@ -10,4 +10,4 @@
 7. las expresiones pueden combinar variables y valores
 8. comentarios de una linea (//) y multilineas (/*....*/)
 9. los identificadores empiezan por letra, guion bajo o dolar ($)
-10. case-sensitive: javascript distingu entre mayusculas y minusculas(nombre y NOMBRE son diferentes)
+10. case-sensitive: javascript distingue entre mayusculas y minusculas(nombre y NOMBRE son diferentes)
