@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cambio de imagen</title>
+    <title>cambio de imagen</title>
     <script>
-        function cambiar()
-        {
-            nombreImagen = document.getElementById('nombreImagen').value;
-            document.getElementById('imagen').src = nombreImagen;
+        function cambiarImagen() {
+            var imagen = document.getElementById("nombreimagen").value;
+            document.getElementById("imagen").src = imagen;
         }
     </script>
+    
 </head>
 <body>
-    <img id="imagen" src="img/escudoGuanenta.png" alt="" onclick="cambiar()">
-    <input type="text" id="nombreImagen">
-    <button onclick="cambiar">Cambiar imagen</button>
+    <img id= "imagen"src="img/escudoGuanenta.png" alt=""onclick="cambiarImagen()">
+    <input type="text" id="nombreimagen">
+    <button onclick="cambiarImagen()">
+        Cambiar Imagen
+    </button>
 </body>
 </html>

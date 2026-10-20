@@ -1,1 +1,1 @@
-alert("Colegio San José de Guanentá");
+alert("colegio san jose de guanenta");
